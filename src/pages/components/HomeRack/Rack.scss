@@ -1,0 +1,47 @@
+.RackContainer{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    border: 1px solid;
+    border-color: #D2E1DF;
+    padding: 20px;
+    .CContainer{
+        display: flex;
+        flex-direction: column;
+        .ProdutoRack{
+            width: auto;
+            height: 400px;
+        }
+    }
+    .CBottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        font-size: 13px;
+        .PriceContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .Price{
+                font-weight: bold;
+            }
+            button{
+                margin-top: 10px;
+                width: 5vw;
+                height: 4vh;
+                background-color: #de8f75;
+                border-radius: 2px;
+                border: 1px;
+                cursor: pointer;
+                color: white;
+                
+            }
+        }
+        
+    }
+}
+
+
+// IMAGE TAMANHO 800 x 1200 px

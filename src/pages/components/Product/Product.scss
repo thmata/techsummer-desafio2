@@ -1,0 +1,150 @@
+
+
+.InfoContainer{
+    height: 34.563rem;
+    width: 40.75rem;
+    border: 2px solid #d2e1df;
+    margin-left: 10rem;
+}
+
+.ContainerWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    
+    .Scroll{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto 0px auto;
+        gap: 35px;
+        .ArrowTop{
+            display: flex;
+            padding: 5px;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .sproduct{
+            height: 5.875rem;
+            cursor: pointer;
+        }
+
+    }
+    .BigImage{
+        height: 30.75rem;
+        margin-left: 30px;;
+    }
+
+    .SelectedImage{
+        margin: auto 0 auto;
+    }
+}
+
+
+.InfoContainer{
+    
+    .InsideInfoContainer{
+        padding: 20px;
+
+        .PriceInfoContainer{
+            .Price{
+                margin-top: 54px;
+                display: flex;
+                text-align: center;
+                .LastPrice{
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #e35442;
+                    text-decoration-line: line-through;
+                }
+                .RealPrice{
+                    margin-left: 10px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: #686868;
+                }
+                .DividePrice{
+                    color: #7f7f7f;
+                    font-weight: 400;
+                    font-size: 12px;
+                }
+            }
+        }
+        .ColorInfoContainer{
+            margin-top: 50px;
+            .ColorLetter{
+
+            }
+            .ColorSelector{
+                margin-top: 5px;
+                display: flex;
+                align-items: center;
+                .Circle{
+                    height: 25px ;
+                    width:25px ;
+                    border: 1px solid rgb(188, 171, 171);
+                    border-radius:50%;
+                    background-color: white;
+                    cursor: pointer;
+                    margin-right: 4px ;
+
+                }
+            }
+        }
+        .SizeInfoContainer{
+            display: flex;
+            justify-content: space-between; 
+            margin-top: 20px;
+            p{
+                color: #de8f75;
+                text-decoration: underline;
+            }
+            .SizeLetter{
+
+            }
+        }
+        .ChooseSize{
+            margin-top: 5px;
+            display: flex;
+            gap: 10px;
+            .Size{
+                border: 1px solid #ebebeb;
+                padding: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 34px;
+                height: 34px;
+                font-size: 14px;
+                cursor: pointer;
+                background-color: white;
+            }
+        }
+        .ButtonContainer{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-top: 2.5rem;
+            .ButtonBag{
+                background: none;
+                color: inherit;
+                border: none;
+                padding: 0;
+                height: 3.75rem;
+                width: 25.25rem;
+                background-color: #32917b;
+                border-radius: 3px;
+                color: white;
+            }
+        }
+        .DescriptionContainer{
+            margin-top: 20px;
+            p{
+
+            }
+        }
+    }
+}

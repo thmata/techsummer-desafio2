@@ -1,0 +1,60 @@
+.Container {
+    height: 3.125rem;
+    border: 1px solid #cccccc;
+    margin-top:26px;
+}
+
+.Wrapper{
+    display: flex;
+  justify-content: space-between;
+  margin-top: 0.85rem;
+ 
+  .Left{
+    display: flex;
+    margin-left: 2.5rem;
+    .MenuItem{
+      margin-left: 0.5rem;
+      color: #686868;
+      font-size: 12px;
+      cursor:pointer;
+    }
+  }
+  .Center{
+    display: flex;
+    .MenuItemCenter{
+      margin-left: 4.2rem;
+      color: #686868;
+      font-size: 14px;
+      font-weight: 400;
+      cursor: pointer;
+    }
+  }
+  .Right{
+    display: flex;
+    margin-right: 2.5rem;
+    .SearchContainer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgb(104, 104, 104, 0.4);
+      height: 1.5rem;
+      width: 4.7rem;
+      margin-right: 3rem;
+
+      input{
+        border: 0;
+        padding: 5px;
+        margin-left: 5px;
+        margin-bottom: 8px;
+        height: 1.5rem;
+        width: 3rem;
+        outline: none;
+        margin-top: 7px;
+      }
+
+    }
+    .BagContainer{
+      display: flex;
+    }
+  }
+}
